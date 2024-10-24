@@ -1,0 +1,33 @@
+ ** Industry Application: **
+ FOr Industry use cases, relevant content comes from diverse documnet types, such as PDFs, Word docs, eamil and webpages.
+
+# Preproessing Outputs:
+Doucment content: text content from the documents. Used for keyword or similarity search in RAG apps.
+
+Doucment Elements:
+
+The basic building blocks of a documents useful for various RAG tasks, such as filtering and chunking.
+* Title
+* Narrative text
+* List Item
+* table
+* images
+
+Element Metadata:
+Additional information about the element.Useful for filtering in hybrud search and for identifying the source of a response.
+* FIlename
+* Filetype
+* Page Number
+* section
+
+
+Why is Data Preproessing hard?
+
+content uses: different documetns types have different cues for element types(visual. markdown)
+
+Standardization need: TO process content from different document types, they need to be standardized.
+
+Extraction variability: Different documetn formts may require different extraction approaches. (i.e  forms vs journal articles)
+
+Metadata Insight: In many cases, extarcting metadata requires an understanding f document structure.
+
